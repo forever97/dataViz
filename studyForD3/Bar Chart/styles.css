@@ -1,0 +1,13 @@
+body{
+    margin: 0px;
+    overflow: hidden;
+}
+
+rect{
+    fill: steelblue
+}
+
+text{
+    /*1.4倍大小*/
+    font-size: 1.4em;
+}
