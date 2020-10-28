@@ -62,12 +62,12 @@ async function drawLineChart() {
     const line = bounds.append("path")
         .attr("d", lineGenerator(dataset))
         .attr("fill", "none")
-        .attr("stroke", "red")
+        .attr("stroke", "#BA5F06")
         .attr("stroke-width", 2)
     const line2 = bounds.append("path")
         .attr("d", lineGenerator2(dataset))
         .attr("fill", "none")
-        .attr("stroke", "blue")
+        .attr("stroke", "#688BAB")
         .attr("stroke-width", 2)
     
     // y坐标轴
