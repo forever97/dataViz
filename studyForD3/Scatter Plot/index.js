@@ -33,7 +33,7 @@ const render = data => {
         //.domain([d3.min(data, xValue), d3.max(data, xValue)])
         .domain(d3.extent(data, xValue))
         .range([0, innerWidth])
-        .nice(); // 加上边界线
+        .nice(); // 舍入
 
     const yScale = d3.scaleLinear()
         .domain(d3.extent(data, yValue))
