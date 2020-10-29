@@ -60,7 +60,7 @@ async function drawScatter () {
         dots.join("circle")
             .attr("cx", d => xScale(xAccessor(d)))
             .attr("cy", d => yScale(yAccessor(d)))
-            .attr("r", 10)
+            .attr("r", 8)
             .attr("fill", d => colorScale(colorAccessor(d)))  
             .attr("opacity", 0.5)
     }
