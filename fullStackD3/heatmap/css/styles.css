@@ -1,6 +1,6 @@
-@font-face {
+@font-face { /*引入网络字体*/
     font-family: 'Inter var';
-    src: url('./../../../../fonts/Inter.var.woff2');
+    src: url('../../fonts/Inter.var.woff2'); 
 }
 
 body {
